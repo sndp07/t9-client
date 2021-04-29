@@ -32,7 +32,6 @@ const Home = () => {
     }
 
     const handleOptionSelectionChange = (value) => {
-        console.log('value is :: ', value);
         setSelectedOption(value)
     }
 
