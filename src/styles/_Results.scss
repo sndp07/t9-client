@@ -1,0 +1,22 @@
+.results {
+    width: 100%;
+    min-height: 8em;
+
+    &__header-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__header {
+        margin: 0;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__value {
+        font-size: 2em;
+        margin: 0.2em 0.4em;
+    }
+}

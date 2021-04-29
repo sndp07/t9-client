@@ -1,0 +1,32 @@
+@import "../assets/Colors";
+
+.phone-pad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.8em;
+
+    &__key {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 6em;
+        height: 6em;
+        cursor: pointer;
+        border-radius: 1.2em;
+
+        &:hover {
+            background-color:  $lightGray;
+        }
+        &-number {
+            flex: 2;
+            font-size: 3.2em;
+        }
+        &-letters {
+            flex: 1;
+            font-size: 1em;
+            color: $darkGray;
+        }
+    }
+}
